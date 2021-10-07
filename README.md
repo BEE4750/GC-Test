@@ -29,3 +29,13 @@ Even though Github will automatically run tests on your code, it won't build a P
 * Another option is to generate an HTML file, rather than a PDF. This is the easiest solution, as it will not require a LaTeX installation. To do this, change the `doctype: pandoc2pdf` line to `doctype: md2html`.
 
 If you do change the doctype line in the header, make sure you change it back to `doctype: pandoc2pdf` before you submit your solution to Gradescope.
+
+Then open Julia in the local assignment directory and use the following commands:
+
+```julia
+julia> using Pkg
+julia> Pkg.activate(".")
+julia> Pkg.instantiate()
+julia> using Weave
+julia Weave.weave("solution.jmd")
+```
