@@ -1,0 +1,29 @@
+---
+title: Assignment INSERT NUMBER
+subtitle: BEE 4750
+author: YOUR FULL NAME HERE (YOUR NETID HERE)
+date: INSERT DATE HERE
+weave_options: 
+  doctype: pandoc2pdf
+  wrap: true
+  term: true
+  echo: false
+---
+
+<!-- 
+Use Julia Markdown to answer the assignment questions. 
+
+Provide any code in this document in code blocks, and insert values in-line using `j <variable>` syntax. 
+
+You may see how the final solution will look by running the following commands at the Julia REPL within the assignment directory:
+
+julia> using Pkg
+julia> Pkg.activate(".")
+julia> Pkg.instantiate()
+julia> using Weave
+julia> Weave.weave("solution.jmd")
+
+You may also change "echo: false" in the header to "echo: true" while writing and debugging, but change it back prior to submission.
+
+-->
+
